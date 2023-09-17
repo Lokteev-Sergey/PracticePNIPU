@@ -44,7 +44,7 @@ public class Main {
             }
         }
         System.out.println();//Выводим отсортированный двумерный массив
-        System.out.println();
+        System.out.println();//Пропускаем строку для удобочитаемости
         for (Integer[] num : arr) {
             for (Integer num1 : num) {
                 System.out.print(" " + num1);
